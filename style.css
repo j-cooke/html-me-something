@@ -1,0 +1,74 @@
+body {
+    color: #ffffff;
+    background-image: url(images/gplaypattern.png);
+    background-color: #333333;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+h1 {
+    color: #000000;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li.nav a:hover {
+    background-color: #222222;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+nav {
+    background-color: #333333;
+    border-radius: 15px;
+    opacity: .9;
+}
+article {
+    text-align: left;
+}
+section {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #111111;
+    background-color: #333333;
+    opacity: .9;
+    float: center;
+}
+.app{
+    overflow: auto;
+    padding: 5px 10px 2px 10px;
+}
+.icon{
+    float: left;
+}
